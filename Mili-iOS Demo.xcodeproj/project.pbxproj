@@ -1,0 +1,634 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		472032021A0BAF5E00D810DA /* AlarmController.m in Sources */ = {isa = PBXBuildFile; fileRef = 472031FF1A0BAF5E00D810DA /* AlarmController.m */; };
+		472032031A0BAF5E00D810DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 472032011A0BAF5E00D810DA /* AppDelegate.m */; };
+		472032081A0BAF6400D810DA /* ColorController.m in Sources */ = {isa = PBXBuildFile; fileRef = 472032051A0BAF6400D810DA /* ColorController.m */; };
+		472032091A0BAF6400D810DA /* DetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 472032071A0BAF6400D810DA /* DetailController.m */; };
+		4720322E1A0BAF6D00D810DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4720320A1A0BAF6D00D810DA /* Main.storyboard */; };
+		4720322F1A0BAF6D00D810DA /* MiliController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4720320C1A0BAF6D00D810DA /* MiliController.m */; };
+		472032301A0BAF6D00D810DA /* MLActivityDataFragmentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4720320E1A0BAF6D00D810DA /* MLActivityDataFragmentModel.m */; };
+		472032311A0BAF6D00D810DA /* MLActivityDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 472032101A0BAF6D00D810DA /* MLActivityDataModel.m */; };
+		472032321A0BAF6D00D810DA /* MLActivityDataReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 472032121A0BAF6D00D810DA /* MLActivityDataReader.m */; };
+		472032331A0BAF6D00D810DA /* MLAlarmClockModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 472032141A0BAF6D00D810DA /* MLAlarmClockModel.m */; };
+		472032341A0BAF6D00D810DA /* MLBatteryInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 472032161A0BAF6D00D810DA /* MLBatteryInfoModel.m */; };
+		472032351A0BAF6D00D810DA /* MLCentralManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 472032181A0BAF6D00D810DA /* MLCentralManager.m */; };
+		472032361A0BAF6D00D810DA /* MLDataBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 4720321A1A0BAF6D00D810DA /* MLDataBuilder.m */; };
+		472032371A0BAF6D00D810DA /* MLDataReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 4720321C1A0BAF6D00D810DA /* MLDataReader.m */; };
+		472032381A0BAF6D00D810DA /* MLDateTimeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4720321E1A0BAF6D00D810DA /* MLDateTimeModel.m */; };
+		472032391A0BAF6D00D810DA /* MLDeviceInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 472032201A0BAF6D00D810DA /* MLDeviceInfoModel.m */; };
+		4720323A1A0BAF6D00D810DA /* MLHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 472032221A0BAF6D00D810DA /* MLHelper.m */; };
+		4720323B1A0BAF6D00D810DA /* MLLEParamsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 472032241A0BAF6D00D810DA /* MLLEParamsModel.m */; };
+		4720323C1A0BAF6D00D810DA /* MLMiliPeripheral.m in Sources */ = {isa = PBXBuildFile; fileRef = 472032261A0BAF6D00D810DA /* MLMiliPeripheral.m */; };
+		4720323D1A0BAF6D00D810DA /* MLMiliService.m in Sources */ = {isa = PBXBuildFile; fileRef = 472032281A0BAF6D00D810DA /* MLMiliService.m */; };
+		4720323E1A0BAF6D00D810DA /* MLStatisticsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4720322B1A0BAF6D00D810DA /* MLStatisticsModel.m */; };
+		4720323F1A0BAF6D00D810DA /* MLUserInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4720322D1A0BAF6D00D810DA /* MLUserInfoModel.m */; };
+		472032411A0BAF8A00D810DA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 472032401A0BAF8A00D810DA /* Default-568h@2x.png */; };
+		472D805A1A0BAD8C0029EB3A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 472D80591A0BAD8C0029EB3A /* main.m */; };
+		472D80651A0BAD8C0029EB3A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 472D80641A0BAD8C0029EB3A /* Images.xcassets */; };
+		472D80681A0BAD8C0029EB3A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 472D80661A0BAD8C0029EB3A /* LaunchScreen.xib */; };
+		472D80741A0BAD8C0029EB3A /* Mili_iOS_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 472D80731A0BAD8C0029EB3A /* Mili_iOS_DemoTests.m */; };
+		CAC5166D1F5142EB506669E7 /* libPods-Mili-iOS Demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DA52C45F5B65F8D39768433 /* libPods-Mili-iOS Demo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		472D806E1A0BAD8C0029EB3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 472D804C1A0BAD8C0029EB3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 472D80531A0BAD8C0029EB3A;
+			remoteInfo = "Mili-iOS Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3DA52C45F5B65F8D39768433 /* libPods-Mili-iOS Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Mili-iOS Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		472031FE1A0BAF5E00D810DA /* AlarmController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlarmController.h; sourceTree = "<group>"; };
+		472031FF1A0BAF5E00D810DA /* AlarmController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlarmController.m; sourceTree = "<group>"; };
+		472032001A0BAF5E00D810DA /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		472032011A0BAF5E00D810DA /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		472032041A0BAF6400D810DA /* ColorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorController.h; sourceTree = "<group>"; };
+		472032051A0BAF6400D810DA /* ColorController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorController.m; sourceTree = "<group>"; };
+		472032061A0BAF6400D810DA /* DetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailController.h; sourceTree = "<group>"; };
+		472032071A0BAF6400D810DA /* DetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailController.m; sourceTree = "<group>"; };
+		4720320A1A0BAF6D00D810DA /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		4720320B1A0BAF6D00D810DA /* MiliController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiliController.h; sourceTree = "<group>"; };
+		4720320C1A0BAF6D00D810DA /* MiliController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MiliController.m; sourceTree = "<group>"; };
+		4720320D1A0BAF6D00D810DA /* MLActivityDataFragmentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLActivityDataFragmentModel.h; sourceTree = "<group>"; };
+		4720320E1A0BAF6D00D810DA /* MLActivityDataFragmentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLActivityDataFragmentModel.m; sourceTree = "<group>"; };
+		4720320F1A0BAF6D00D810DA /* MLActivityDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLActivityDataModel.h; sourceTree = "<group>"; };
+		472032101A0BAF6D00D810DA /* MLActivityDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLActivityDataModel.m; sourceTree = "<group>"; };
+		472032111A0BAF6D00D810DA /* MLActivityDataReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLActivityDataReader.h; sourceTree = "<group>"; };
+		472032121A0BAF6D00D810DA /* MLActivityDataReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLActivityDataReader.m; sourceTree = "<group>"; };
+		472032131A0BAF6D00D810DA /* MLAlarmClockModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLAlarmClockModel.h; sourceTree = "<group>"; };
+		472032141A0BAF6D00D810DA /* MLAlarmClockModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLAlarmClockModel.m; sourceTree = "<group>"; };
+		472032151A0BAF6D00D810DA /* MLBatteryInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBatteryInfoModel.h; sourceTree = "<group>"; };
+		472032161A0BAF6D00D810DA /* MLBatteryInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBatteryInfoModel.m; sourceTree = "<group>"; };
+		472032171A0BAF6D00D810DA /* MLCentralManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLCentralManager.h; sourceTree = "<group>"; };
+		472032181A0BAF6D00D810DA /* MLCentralManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLCentralManager.m; sourceTree = "<group>"; };
+		472032191A0BAF6D00D810DA /* MLDataBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLDataBuilder.h; sourceTree = "<group>"; };
+		4720321A1A0BAF6D00D810DA /* MLDataBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLDataBuilder.m; sourceTree = "<group>"; };
+		4720321B1A0BAF6D00D810DA /* MLDataReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLDataReader.h; sourceTree = "<group>"; };
+		4720321C1A0BAF6D00D810DA /* MLDataReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLDataReader.m; sourceTree = "<group>"; };
+		4720321D1A0BAF6D00D810DA /* MLDateTimeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLDateTimeModel.h; sourceTree = "<group>"; };
+		4720321E1A0BAF6D00D810DA /* MLDateTimeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLDateTimeModel.m; sourceTree = "<group>"; };
+		4720321F1A0BAF6D00D810DA /* MLDeviceInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLDeviceInfoModel.h; sourceTree = "<group>"; };
+		472032201A0BAF6D00D810DA /* MLDeviceInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLDeviceInfoModel.m; sourceTree = "<group>"; };
+		472032211A0BAF6D00D810DA /* MLHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLHelper.h; sourceTree = "<group>"; };
+		472032221A0BAF6D00D810DA /* MLHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLHelper.m; sourceTree = "<group>"; };
+		472032231A0BAF6D00D810DA /* MLLEParamsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLLEParamsModel.h; sourceTree = "<group>"; };
+		472032241A0BAF6D00D810DA /* MLLEParamsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLLEParamsModel.m; sourceTree = "<group>"; };
+		472032251A0BAF6D00D810DA /* MLMiliPeripheral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLMiliPeripheral.h; sourceTree = "<group>"; };
+		472032261A0BAF6D00D810DA /* MLMiliPeripheral.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLMiliPeripheral.m; sourceTree = "<group>"; };
+		472032271A0BAF6D00D810DA /* MLMiliService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLMiliService.h; sourceTree = "<group>"; };
+		472032281A0BAF6D00D810DA /* MLMiliService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLMiliService.m; sourceTree = "<group>"; };
+		472032291A0BAF6D00D810DA /* MLModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLModel.h; sourceTree = "<group>"; };
+		4720322A1A0BAF6D00D810DA /* MLStatisticsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLStatisticsModel.h; sourceTree = "<group>"; };
+		4720322B1A0BAF6D00D810DA /* MLStatisticsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLStatisticsModel.m; sourceTree = "<group>"; };
+		4720322C1A0BAF6D00D810DA /* MLUserInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLUserInfoModel.h; sourceTree = "<group>"; };
+		4720322D1A0BAF6D00D810DA /* MLUserInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLUserInfoModel.m; sourceTree = "<group>"; };
+		472032401A0BAF8A00D810DA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		472D80541A0BAD8C0029EB3A /* Mili-iOS Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mili-iOS Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		472D80581A0BAD8C0029EB3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		472D80591A0BAD8C0029EB3A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		472D80641A0BAD8C0029EB3A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		472D80671A0BAD8C0029EB3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		472D806D1A0BAD8C0029EB3A /* Mili-iOS DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mili-iOS DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		472D80721A0BAD8C0029EB3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		472D80731A0BAD8C0029EB3A /* Mili_iOS_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mili_iOS_DemoTests.m; sourceTree = "<group>"; };
+		4852E9195D9173C7CF975071 /* Pods-Mili-iOS Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mili-iOS Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Mili-iOS Demo/Pods-Mili-iOS Demo.release.xcconfig"; sourceTree = "<group>"; };
+		673F3667AD1DA623C01D81CB /* Pods-Mili-iOS Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mili-iOS Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mili-iOS Demo/Pods-Mili-iOS Demo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		472D80511A0BAD8C0029EB3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAC5166D1F5142EB506669E7 /* libPods-Mili-iOS Demo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		472D806A1A0BAD8C0029EB3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		262754B522CB8DD84BEF51C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DA52C45F5B65F8D39768433 /* libPods-Mili-iOS Demo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		36F6AA544303C3974B04E371 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				673F3667AD1DA623C01D81CB /* Pods-Mili-iOS Demo.debug.xcconfig */,
+				4852E9195D9173C7CF975071 /* Pods-Mili-iOS Demo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		472032421A0BB06000D810DA /* Mili-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				472032451A0BB0D500D810DA /* MLBLE */,
+				472032441A0BB0B400D810DA /* MLModel */,
+				472032431A0BB09100D810DA /* MLHelper */,
+			);
+			name = "Mili-iOS";
+			sourceTree = "<group>";
+		};
+		472032431A0BB09100D810DA /* MLHelper */ = {
+			isa = PBXGroup;
+			children = (
+				472032191A0BAF6D00D810DA /* MLDataBuilder.h */,
+				4720321A1A0BAF6D00D810DA /* MLDataBuilder.m */,
+				4720321B1A0BAF6D00D810DA /* MLDataReader.h */,
+				4720321C1A0BAF6D00D810DA /* MLDataReader.m */,
+				472032111A0BAF6D00D810DA /* MLActivityDataReader.h */,
+				472032121A0BAF6D00D810DA /* MLActivityDataReader.m */,
+				472032211A0BAF6D00D810DA /* MLHelper.h */,
+				472032221A0BAF6D00D810DA /* MLHelper.m */,
+			);
+			name = MLHelper;
+			sourceTree = "<group>";
+		};
+		472032441A0BB0B400D810DA /* MLModel */ = {
+			isa = PBXGroup;
+			children = (
+				472032291A0BAF6D00D810DA /* MLModel.h */,
+				4720320D1A0BAF6D00D810DA /* MLActivityDataFragmentModel.h */,
+				4720320E1A0BAF6D00D810DA /* MLActivityDataFragmentModel.m */,
+				4720320F1A0BAF6D00D810DA /* MLActivityDataModel.h */,
+				472032101A0BAF6D00D810DA /* MLActivityDataModel.m */,
+				472032131A0BAF6D00D810DA /* MLAlarmClockModel.h */,
+				472032141A0BAF6D00D810DA /* MLAlarmClockModel.m */,
+				472032151A0BAF6D00D810DA /* MLBatteryInfoModel.h */,
+				472032161A0BAF6D00D810DA /* MLBatteryInfoModel.m */,
+				4720321D1A0BAF6D00D810DA /* MLDateTimeModel.h */,
+				4720321E1A0BAF6D00D810DA /* MLDateTimeModel.m */,
+				4720321F1A0BAF6D00D810DA /* MLDeviceInfoModel.h */,
+				472032201A0BAF6D00D810DA /* MLDeviceInfoModel.m */,
+				472032231A0BAF6D00D810DA /* MLLEParamsModel.h */,
+				472032241A0BAF6D00D810DA /* MLLEParamsModel.m */,
+				4720322A1A0BAF6D00D810DA /* MLStatisticsModel.h */,
+				4720322B1A0BAF6D00D810DA /* MLStatisticsModel.m */,
+				4720322C1A0BAF6D00D810DA /* MLUserInfoModel.h */,
+				4720322D1A0BAF6D00D810DA /* MLUserInfoModel.m */,
+			);
+			name = MLModel;
+			sourceTree = "<group>";
+		};
+		472032451A0BB0D500D810DA /* MLBLE */ = {
+			isa = PBXGroup;
+			children = (
+				472032171A0BAF6D00D810DA /* MLCentralManager.h */,
+				472032181A0BAF6D00D810DA /* MLCentralManager.m */,
+				472032251A0BAF6D00D810DA /* MLMiliPeripheral.h */,
+				472032261A0BAF6D00D810DA /* MLMiliPeripheral.m */,
+				472032271A0BAF6D00D810DA /* MLMiliService.h */,
+				472032281A0BAF6D00D810DA /* MLMiliService.m */,
+			);
+			name = MLBLE;
+			sourceTree = "<group>";
+		};
+		472D804B1A0BAD8C0029EB3A = {
+			isa = PBXGroup;
+			children = (
+				472032401A0BAF8A00D810DA /* Default-568h@2x.png */,
+				472D80561A0BAD8C0029EB3A /* Mili-iOS Demo */,
+				472D80701A0BAD8C0029EB3A /* Mili-iOS DemoTests */,
+				472D80551A0BAD8C0029EB3A /* Products */,
+				36F6AA544303C3974B04E371 /* Pods */,
+				262754B522CB8DD84BEF51C9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		472D80551A0BAD8C0029EB3A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				472D80541A0BAD8C0029EB3A /* Mili-iOS Demo.app */,
+				472D806D1A0BAD8C0029EB3A /* Mili-iOS DemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		472D80561A0BAD8C0029EB3A /* Mili-iOS Demo */ = {
+			isa = PBXGroup;
+			children = (
+				472032421A0BB06000D810DA /* Mili-iOS */,
+				4720320B1A0BAF6D00D810DA /* MiliController.h */,
+				4720320C1A0BAF6D00D810DA /* MiliController.m */,
+				472032061A0BAF6400D810DA /* DetailController.h */,
+				472032071A0BAF6400D810DA /* DetailController.m */,
+				472032041A0BAF6400D810DA /* ColorController.h */,
+				472032051A0BAF6400D810DA /* ColorController.m */,
+				472031FE1A0BAF5E00D810DA /* AlarmController.h */,
+				472031FF1A0BAF5E00D810DA /* AlarmController.m */,
+				4720320A1A0BAF6D00D810DA /* Main.storyboard */,
+				472D80661A0BAD8C0029EB3A /* LaunchScreen.xib */,
+				472D80641A0BAD8C0029EB3A /* Images.xcassets */,
+				472D80571A0BAD8C0029EB3A /* Supporting Files */,
+			);
+			path = "Mili-iOS Demo";
+			sourceTree = "<group>";
+		};
+		472D80571A0BAD8C0029EB3A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				472032001A0BAF5E00D810DA /* AppDelegate.h */,
+				472032011A0BAF5E00D810DA /* AppDelegate.m */,
+				472D80581A0BAD8C0029EB3A /* Info.plist */,
+				472D80591A0BAD8C0029EB3A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		472D80701A0BAD8C0029EB3A /* Mili-iOS DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				472D80731A0BAD8C0029EB3A /* Mili_iOS_DemoTests.m */,
+				472D80711A0BAD8C0029EB3A /* Supporting Files */,
+			);
+			path = "Mili-iOS DemoTests";
+			sourceTree = "<group>";
+		};
+		472D80711A0BAD8C0029EB3A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				472D80721A0BAD8C0029EB3A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		472D80531A0BAD8C0029EB3A /* Mili-iOS Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 472D80771A0BAD8C0029EB3A /* Build configuration list for PBXNativeTarget "Mili-iOS Demo" */;
+			buildPhases = (
+				C5B62D9BF00A5BED74F65DEA /* Check Pods Manifest.lock */,
+				472D80501A0BAD8C0029EB3A /* Sources */,
+				472D80511A0BAD8C0029EB3A /* Frameworks */,
+				472D80521A0BAD8C0029EB3A /* Resources */,
+				C578A7BDD6D590CBDBCADC89 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mili-iOS Demo";
+			productName = "Mili-iOS Demo";
+			productReference = 472D80541A0BAD8C0029EB3A /* Mili-iOS Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		472D806C1A0BAD8C0029EB3A /* Mili-iOS DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 472D807A1A0BAD8C0029EB3A /* Build configuration list for PBXNativeTarget "Mili-iOS DemoTests" */;
+			buildPhases = (
+				472D80691A0BAD8C0029EB3A /* Sources */,
+				472D806A1A0BAD8C0029EB3A /* Frameworks */,
+				472D806B1A0BAD8C0029EB3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				472D806F1A0BAD8C0029EB3A /* PBXTargetDependency */,
+			);
+			name = "Mili-iOS DemoTests";
+			productName = "Mili-iOS DemoTests";
+			productReference = 472D806D1A0BAD8C0029EB3A /* Mili-iOS DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		472D804C1A0BAD8C0029EB3A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = stormluke;
+				TargetAttributes = {
+					472D80531A0BAD8C0029EB3A = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					472D806C1A0BAD8C0029EB3A = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 472D80531A0BAD8C0029EB3A;
+					};
+				};
+			};
+			buildConfigurationList = 472D804F1A0BAD8C0029EB3A /* Build configuration list for PBXProject "Mili-iOS Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 472D804B1A0BAD8C0029EB3A;
+			productRefGroup = 472D80551A0BAD8C0029EB3A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				472D80531A0BAD8C0029EB3A /* Mili-iOS Demo */,
+				472D806C1A0BAD8C0029EB3A /* Mili-iOS DemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		472D80521A0BAD8C0029EB3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4720322E1A0BAF6D00D810DA /* Main.storyboard in Resources */,
+				472032411A0BAF8A00D810DA /* Default-568h@2x.png in Resources */,
+				472D80681A0BAD8C0029EB3A /* LaunchScreen.xib in Resources */,
+				472D80651A0BAD8C0029EB3A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		472D806B1A0BAD8C0029EB3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C578A7BDD6D590CBDBCADC89 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mili-iOS Demo/Pods-Mili-iOS Demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5B62D9BF00A5BED74F65DEA /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		472D80501A0BAD8C0029EB3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4720323C1A0BAF6D00D810DA /* MLMiliPeripheral.m in Sources */,
+				472032381A0BAF6D00D810DA /* MLDateTimeModel.m in Sources */,
+				472032341A0BAF6D00D810DA /* MLBatteryInfoModel.m in Sources */,
+				472D805A1A0BAD8C0029EB3A /* main.m in Sources */,
+				472032331A0BAF6D00D810DA /* MLAlarmClockModel.m in Sources */,
+				472032391A0BAF6D00D810DA /* MLDeviceInfoModel.m in Sources */,
+				472032311A0BAF6D00D810DA /* MLActivityDataModel.m in Sources */,
+				4720323D1A0BAF6D00D810DA /* MLMiliService.m in Sources */,
+				4720323A1A0BAF6D00D810DA /* MLHelper.m in Sources */,
+				4720323F1A0BAF6D00D810DA /* MLUserInfoModel.m in Sources */,
+				472032321A0BAF6D00D810DA /* MLActivityDataReader.m in Sources */,
+				4720323E1A0BAF6D00D810DA /* MLStatisticsModel.m in Sources */,
+				472032371A0BAF6D00D810DA /* MLDataReader.m in Sources */,
+				472032021A0BAF5E00D810DA /* AlarmController.m in Sources */,
+				472032301A0BAF6D00D810DA /* MLActivityDataFragmentModel.m in Sources */,
+				472032091A0BAF6400D810DA /* DetailController.m in Sources */,
+				472032031A0BAF5E00D810DA /* AppDelegate.m in Sources */,
+				4720322F1A0BAF6D00D810DA /* MiliController.m in Sources */,
+				472032351A0BAF6D00D810DA /* MLCentralManager.m in Sources */,
+				4720323B1A0BAF6D00D810DA /* MLLEParamsModel.m in Sources */,
+				472032081A0BAF6400D810DA /* ColorController.m in Sources */,
+				472032361A0BAF6D00D810DA /* MLDataBuilder.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		472D80691A0BAD8C0029EB3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				472D80741A0BAD8C0029EB3A /* Mili_iOS_DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		472D806F1A0BAD8C0029EB3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 472D80531A0BAD8C0029EB3A /* Mili-iOS Demo */;
+			targetProxy = 472D806E1A0BAD8C0029EB3A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		472D80661A0BAD8C0029EB3A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				472D80671A0BAD8C0029EB3A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		472D80751A0BAD8C0029EB3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		472D80761A0BAD8C0029EB3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		472D80781A0BAD8C0029EB3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 673F3667AD1DA623C01D81CB /* Pods-Mili-iOS Demo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Mili-iOS Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		472D80791A0BAD8C0029EB3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4852E9195D9173C7CF975071 /* Pods-Mili-iOS Demo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Mili-iOS Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		472D807B1A0BAD8C0029EB3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Mili-iOS DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mili-iOS Demo.app/Mili-iOS Demo";
+			};
+			name = Debug;
+		};
+		472D807C1A0BAD8C0029EB3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Mili-iOS DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mili-iOS Demo.app/Mili-iOS Demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		472D804F1A0BAD8C0029EB3A /* Build configuration list for PBXProject "Mili-iOS Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				472D80751A0BAD8C0029EB3A /* Debug */,
+				472D80761A0BAD8C0029EB3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		472D80771A0BAD8C0029EB3A /* Build configuration list for PBXNativeTarget "Mili-iOS Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				472D80781A0BAD8C0029EB3A /* Debug */,
+				472D80791A0BAD8C0029EB3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		472D807A1A0BAD8C0029EB3A /* Build configuration list for PBXNativeTarget "Mili-iOS DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				472D807B1A0BAD8C0029EB3A /* Debug */,
+				472D807C1A0BAD8C0029EB3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 472D804C1A0BAD8C0029EB3A /* Project object */;
+}
