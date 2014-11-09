@@ -24,6 +24,10 @@ Please check [MLCentralManager.h](https://github.com/stormluke/Mili-iOS/blob/mas
 
 Note that current demo will use a fake user info for authentication, this will replace the old profile and cause mili vibrate (re-auth) when connected.
 
+## Mili BLE Wiki
+
+See [Characteristics](https://github.com/stormluke/Mili-iOS/wiki/Characteristics).
+
 ## TODO
 
 - Send firmware
